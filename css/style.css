@@ -1,0 +1,54 @@
+body {
+  font-size: 17px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: #2A74BF;
+}
+
+.page-header {
+  border-color: #2A74BF;
+}
+
+.header {
+  font-weight: bold;
+  color: #2A74BF;
+}
+
+.figure {
+  margin-bottom: 40px;
+}
+
+.col-xs-6:nth-child(1) .figure, .col-sm-3:nth-child(1) .figure {
+  border: 1px solid #D7514C;
+  background-color: #D7514C;
+}
+.col-xs-6:nth-child(2) .figure, .col-sm-3:nth-child(2) .figure {
+  border: 1px solid #2A74BF;
+  background-color: #2A74BF;
+}
+.col-xs-6:nth-child(3) .figure, .col-sm-3:nth-child(3) .figure {
+  border: 1px solid #D8C11D;
+  background-color: #D8C11D;
+}
+.col-xs-6:nth-child(4) .figure, .col-sm-3:nth-child(4) .figure {
+  border: 1px solid #4D944B;
+  background-color: #4D944B;
+}
+
+.figure-caption {
+  padding: 10px;
+  color: #fff;
+}
+
+.container-footer {
+  background-color: #666;
+}
+.container-footer .container-footer-paragraph {
+  margin: 0;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

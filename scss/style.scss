@@ -1,0 +1,86 @@
+$blue:   #2A74BF;
+$red:    #D7514C;
+$green:  #4D944B;
+$orange: #D8C11D;
+$grey:   #666;
+$white:  #fff;
+
+@mixin border($color) {
+	border: 1px solid $color;
+	background-color: $color;
+}
+
+body{
+	font-size: 17px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: $white;
+    background-color: $blue;
+}
+
+.page-header {
+    border-color: $blue;
+}
+
+.header{
+	font-weight: bold;
+	color: $blue;
+}
+
+.figure{
+	margin-bottom: 40px;
+}
+
+.col-xs-6, .col-sm-3{
+
+	&:nth-child(1){
+
+		.figure{
+			@include border($red);
+		}
+	}
+
+	&:nth-child(2){
+
+		.figure{
+			@include border($blue);
+		}
+	}
+
+	&:nth-child(3){
+
+		.figure{
+			@include border($orange);
+		}
+	}
+
+	&:nth-child(4){
+
+		.figure{
+			@include border($green);
+		}
+	}
+}
+
+.figure-caption{
+	padding: 10px;
+	color: $white;
+}
+
+.container-footer{
+	background-color: $grey;
+
+	.container-footer-paragraph{
+		margin: 0;
+		padding: 10px 20px;
+		color: $white;
+	}
+}
+
+
+
+
+
+
+
